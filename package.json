@@ -1,8 +1,10 @@
 {
-    "scripts": {
-        "test:cypress": "cypress run"
-    },
-    "devDependencies": {
-        "cypress": "^10.11.0"
-    }
+  "name": "pipeline_actions",
+  "version": "1.0.0",
+  "scripts": {
+    newman run EjemploJose.postman_collection.json
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  }
 }
