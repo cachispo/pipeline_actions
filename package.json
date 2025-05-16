@@ -1,10 +1,8 @@
 {
-  "name": "pipeline_actions",
-  "version": "1.0.0",
   "scripts": {
-    newman run EjemploJose.postman_collection.json
+    "test": "newman run tu_coleccion.postman_collection.json"
   },
   "devDependencies": {
-    "jest": "^29.0.0"
+    "newman": "^5.3.2"
   }
 }
